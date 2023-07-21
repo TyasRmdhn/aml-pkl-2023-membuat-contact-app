@@ -83,7 +83,7 @@ const deleteContact = (nama) => {
 
   fs.writeFileSync('data/contacts.json', JSON.stringify(newContacts));
 
-  console.log(`data contact ${nama} berhasil dihapus!!`);
+  console.log(`data  ${nama}  berhasil dihapus!!`);
   
 }; 
 
